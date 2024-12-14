@@ -3,7 +3,10 @@ import { Home } from './components/Home'
 
 function App() {
   return (
-    <Home />
+    <>
+      <h1>Siddharth Sharma</h1>
+      <Home />
+    </>
   )
 }
 
