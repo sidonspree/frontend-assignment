@@ -1,0 +1,37 @@
+.tableContainer {
+    border: 2px solid gray;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.tableContainer:focus-visible {
+    border-color: blueviolet;
+}
+
+.tableHeading {
+    font-size: 24px;
+    color: brown;   
+}
+
+.tableHeading:focus-visible {
+    background-color: beige     ;
+}
+
+.tableHeading th {
+    padding: 12px;
+    border: 1px solid rgb(107, 94, 7);
+}
+
+.tableRow {
+    font-size: 20px;
+    color: rgb(99, 99, 27)
+}
+
+.tableRow:focus-visible{
+    background-color: bisque;
+}
+
+.tableRow td {
+    padding: 8px;
+    border: 1px solid rgb(107, 94, 7);
+}
